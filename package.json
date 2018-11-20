@@ -1,0 +1,40 @@
+{
+  "_from": "nodebb-plugin-login-anope@1.0.1",
+  "_id": "nodebb-plugin-login-anope@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ImKuNNZDYrWrKFYwdhgi16ulcVGbkNKPCEma6Z39GfNOnaf6uZv+7+ivpKzC0SCVtD21gNrdJgBB0Pc0CFrZ1w==",
+  "_location": "/nodebb-plugin-login-anope",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nodebb-plugin-login-anope@1.0.1",
+    "name": "nodebb-plugin-login-anope",
+    "escapedName": "nodebb-plugin-login-anope",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-login-anope/-/nodebb-plugin-login-anope-1.0.1.tgz",
+  "_shasum": "059f0ce34f962bfd29236f223c8ce886526fdd77",
+  "_spec": "nodebb-plugin-login-anope@1.0.1",
+  "_where": "/home/network/NodeBB",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "library.js",
+  "name": "nodebb-plugin-login-anope",
+  "nbbpm": {
+    "compatibility": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
