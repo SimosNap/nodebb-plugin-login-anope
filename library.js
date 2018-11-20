@@ -9,7 +9,7 @@ plugin.thirdLogin = function() {
 };
 
 plugin.continueLogin = function(req, username, password, next) {
-    var user = module.parent.require('../user');
+    var user = module.parent.require('./user');
     var userObj = {}
     async.waterfall([
         function (callback) {

@@ -1,28 +1,28 @@
 {
-  "_from": "nodebb-plugin-login-anope@1.0.1",
-  "_id": "nodebb-plugin-login-anope@1.0.1",
+  "_from": "nodebb-plugin-login-anope@1.0.2",
+  "_id": "nodebb-plugin-login-anope@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-ImKuNNZDYrWrKFYwdhgi16ulcVGbkNKPCEma6Z39GfNOnaf6uZv+7+ivpKzC0SCVtD21gNrdJgBB0Pc0CFrZ1w==",
+  "_integrity": "sha512-XiDLAIk5BrYqTfS0NBWyBWuBcqjYco6Kik5MQkcnPQo2D8Z00OwGabw3VOx+q3u1nS+v8H3+7AThbz8W9xHpQQ==",
   "_location": "/nodebb-plugin-login-anope",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "nodebb-plugin-login-anope@1.0.1",
+    "raw": "nodebb-plugin-login-anope@1.0.2",
     "name": "nodebb-plugin-login-anope",
     "escapedName": "nodebb-plugin-login-anope",
-    "rawSpec": "1.0.1",
+    "rawSpec": "1.0.2",
     "saveSpec": null,
-    "fetchSpec": "1.0.1"
+    "fetchSpec": "1.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nodebb-plugin-login-anope/-/nodebb-plugin-login-anope-1.0.1.tgz",
-  "_shasum": "059f0ce34f962bfd29236f223c8ce886526fdd77",
-  "_spec": "nodebb-plugin-login-anope@1.0.1",
-  "_where": "/home/network/NodeBB",
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-login-anope/-/nodebb-plugin-login-anope-1.0.2.tgz",
+  "_shasum": "e50cd0674aa494ac3d0617f81a19c13614dfde73",
+  "_spec": "nodebb-plugin-login-anope@1.0.2",
+  "_where": "/home/network/NodeBB-1.10.2",
   "author": "",
   "bundleDependencies": false,
   "deprecated": false,
@@ -31,10 +31,10 @@
   "main": "library.js",
   "name": "nodebb-plugin-login-anope",
   "nbbpm": {
-    "compatibility": "^1.0.1"
+    "compatibility": "^1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
