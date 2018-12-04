@@ -2,9 +2,12 @@
     "id": "nodebb-plugin-login-anope",
     "name": "NodeBB login Anope",
     "description": "NodeBB Plugin that allows users to login using anope irc services account using magirc rest api",
-    "url": "https://www.npmjs.com/package/nodebb-plugin-login-mysite",
+    "url": "https://www.npmjs.com/package/nodebb-plugin-login-anope",
     "library": "./library.js",
     "hooks": [
-        { "hook": "action:auth.overrideLogin", "method": "thirdLogin" }
+          { "hook": "filter:user.create", "method": "filterUserCreate" },
+          { "hook": "filter:user.whitelistFields", "method": "whitelistFields" },
+          { "hook": "action:user.create", "method": "auidSet" },
+          { "hook": "action:auth.overrideLogin", "method": "thirdLogin" }
     ]
 }
